@@ -1,0 +1,26 @@
+{
+  "min": {
+    "variables": {
+      "&\\geq 0": "&\\leq",
+      "&\\in \\mathbb{R}": "&=",
+      "&\\leq 0": "&\\geq"
+    },
+    "constraints": {
+      "&\\geq": "&\\geq 0",
+      "&=": "&\\in \\mathbb{R}",
+      "&\\leq": "&\\leq 0"
+    }
+  },
+  "max": {
+    "variables": {
+      "&\\geq 0": "&\\geq",
+      "&\\in \\mathbb{R}": "&=",
+      "&\\leq 0": "&\\leq"
+    },
+    "constraints": {
+      "&\\leq": "&\\geq 0",
+      "&=": "&\\in \\mathbb{R}",
+      "&\\geq": "&\\leq 0"
+    }
+  }
+}
